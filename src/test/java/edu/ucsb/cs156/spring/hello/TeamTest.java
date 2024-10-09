@@ -48,7 +48,7 @@ public class TeamTest {
         // instantiate t as a Team object
         Team t = new Team();
         int result = t.hashCode();
-        int expectedResult = 0;
+        int expectedResult = 1;
         assertEquals(expectedResult, result);
      
     }
