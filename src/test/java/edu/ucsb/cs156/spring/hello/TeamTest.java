@@ -25,6 +25,8 @@ public class TeamTest {
     @Test
     public void equals_returns_correct_string() {
 
+        assertEquals(true, team.equals(team));
+
         assertEquals(false, team.equals("string"));
 
         Team team2 = new Team("test-team");
